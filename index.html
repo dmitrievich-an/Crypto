@@ -5,11 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Crypto - надежный сервис обмена криптовалюты</title>
   <script src="js/script.js" defer></script>
+  <link rel="preload" href="fonts/inter-v11-latin_cyrillic-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/inter-v11-latin_cyrillic-500.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/inter-v11-latin_cyrillic-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/ibm-plex-sans-v14-latin_cyrillic-300.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="style/index.css">
 </head>
 <body class="page-body">
   <header class="header">
-    <div class="container">
+    <div class="container header__container">
       <img src="img/logo.svg" alt="" class="header__logo">
       <button class="header__navigation-button" aria-label="Открыть меню">
         <svg width="36" height="36" viewBox="0 0 36 36" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -18,12 +22,8 @@
       </button>
       <nav class="header__navigation navigation">
         <ul class="navigation__list">
-          <li class="navigation__item">
-            <a href="#" class="navigation__link">Почему выбирают нас?</a>
-          </li>
-          <li class="navigation__item">
-            <a href="#" class="navigation__link">Частые вопросы</a>
-          </li>
+          <li class="navigation__item"><a href="#" class="navigation__link">Почему выбирают нас?</a></li>
+          <li class="navigation__item"><a href="#" class="navigation__link">Частые вопросы</a></li>
         </ul>
       </nav>
     </div>

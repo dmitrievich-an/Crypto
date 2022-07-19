@@ -1,0 +1,63 @@
+.page {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.page-body {
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: Inter, sans-serif;
+}
+
+img, svg {
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+button {
+  padding: 0;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 840px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 740px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 15px;
+  }
+}
