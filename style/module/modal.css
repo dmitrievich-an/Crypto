@@ -8,8 +8,7 @@
   visibility: hidden;
   max-width: 688px;
   width: 100%;
-  transition-property: opacity, visibility;
-  transition-timing-function: ease-in-out;
+
 }
 
 .modal_open {
@@ -40,6 +39,8 @@
   padding: 0;
   margin: 0 0 27px;
   border: 0;
+  transition-property: opacity, visibility;
+  transition-timing-function: ease-in-out;
 }
 
 .modal__label {
