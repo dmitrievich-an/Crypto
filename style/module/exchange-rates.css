@@ -20,17 +20,17 @@
   color: #265D77;
 }
 
-.exchanges__item {
+.exchange-rates__item {
   display: flex;
   align-items: center;
   margin-bottom: 24px;
 }
 
-.exchanges__item:last-child {
+.exchange-rates__item:last-child {
   margin-bottom: 0;
 }
 
-.exchanges__item:after {
+.exchange-rates__item:after {
   content: '';
   display: block;
   width: 9px;
