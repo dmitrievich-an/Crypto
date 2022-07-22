@@ -1,0 +1,41 @@
+.footer {
+  background-color: #08475E;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: #FFFFFF;
+}
+
+.footer__container {
+  display: grid;
+  gap: 34px 10px;
+  grid-template-areas:
+  "logo navigation navigation"
+  "copyright . design";
+}
+
+.footer__logo {
+  grid-area: logo;
+  align-self: center;
+}
+
+.footer__navigation {
+  grid-area: navigation;
+  align-self: end;
+}
+
+.footer__copyright {
+  grid-area: copyright;
+  align-self: end;
+  font-size: 12px;
+}
+
+.footer__designer {
+  grid-area: design;
+  justify-self: end;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+
+}
