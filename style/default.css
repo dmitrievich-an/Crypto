@@ -54,7 +54,9 @@ h1, h2, h3, h4, p {
   overflow-x: hidden;
   opacity: 0;
   visibility: hidden;
-
+  transition-property: opacity, visibility;
+  /*transition-duration: 0.3s;*/
+  transition-timing-function: ease-in-out;
   white-space: nowrap;
   text-align: center;
 }
@@ -69,9 +71,6 @@ h1, h2, h3, h4, p {
 .overlay_open {
   opacity: 1;
   visibility: visible;
-  transition-property: opacity, visibility;
-  /*transition-duration: 0.3s;*/
-  transition-timing-function: ease-in-out;
 }
 
 @media (max-width: 1024px) {
