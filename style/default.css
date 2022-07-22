@@ -44,6 +44,35 @@ h1, h2, h3, h4, p {
   padding: 0 30px;
 }
 
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  overflow-y: auto;
+  overflow-x: hidden;
+  opacity: 0;
+  visibility: hidden;
+  transition-property: opacity, visibility;
+  /*transition-duration: 0.3s;*/
+  transition-timing-function: ease-in-out;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.overlay:after {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.overlay_open {
+  opacity: 1;
+  visibility: visible;
+}
+
 @media (max-width: 1024px) {
   .container {
     max-width: 840px;

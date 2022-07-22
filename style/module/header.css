@@ -8,7 +8,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
   background-color: #fff;
 }
 
@@ -35,6 +36,6 @@
     }
 
     .header__navigation_open {
-      transform: translateY(100%);
+      transform: translateY(calc(100% - 1px));
     }
 }
